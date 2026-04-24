@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module BitwiseOR_4bit(
   input [3:0] A, B,
   output reg [3:0] Result
