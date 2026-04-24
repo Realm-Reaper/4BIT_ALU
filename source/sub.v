@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module Subtraction_4bit(
     input [3:0] A, 
     input [3:0] B,
