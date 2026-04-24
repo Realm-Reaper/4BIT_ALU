@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Vivado_Projects/4Alu/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Vivado_Projects/4Alu/sim/testbench.v,1777017311,verilog,,,,TopModule_Test,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/ALU_TOP.v,1777016832,verilog,,,,tb_TopModule,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/TOP_alu.v,1777016907,verilog,,C:/Vivado_Projects/4Alu/source/add.v,,TopModule,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/add.v,1777016997,verilog,,C:/Vivado_Projects/4Alu/source/and_gate.v,,Addition_4bit,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/and_gate.v,1777017036,verilog,,C:/Vivado_Projects/4Alu/source/or_gate.v,,BitwiseAND_4bit,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/or_gate.v,1777017066,verilog,,C:/Vivado_Projects/4Alu/source/sub.v,,BitwiseOR_4bit,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/sub.v,1777017016,verilog,,C:/Vivado_Projects/4Alu/source/xor_gate.v,,Subtraction_4bit,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Vivado_Projects/4Alu/source/xor_gate.v,1777017100,verilog,,C:/Vivado_Projects/4Alu/sim/testbench.v,,BitwiseXOR_4bit,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

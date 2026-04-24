@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Addition Test 1: A + B = 0111, Carry = 0
+Addition Test 2: A + B = 0110, Carry = 1
+Subtraction Test 1: A - B = 0011
+Subtraction Test 2: A - B = 1110
+Bitwise AND Test 1: A & B = 0000
+Bitwise AND Test 2: A & B = 1000
+Bitwise OR Test 1: A | B = 0111
+Bitwise OR Test 2: A | B = 1110
+Bitwise XOR Test 1: A ^ B = 0111
+Bitwise XOR Test 2: A ^ B = 0110
+$finish called at time : 100 ns : File "C:/Vivado_Projects/4Alu/sim/testbench.v" Line 84

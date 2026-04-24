@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Apr 24 19:18:00 2026
+# Process ID         : 29304
+# Current directory  : C:/Vivado_Projects/4Alu/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log tb_TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_TopModule.tcl
+# Log file           : C:/Vivado_Projects/4Alu/project_1/project_1.runs/synth_1/tb_TopModule.vds
+# Journal file       : C:/Vivado_Projects/4Alu/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : VOIDVERSE
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 250 w/ Radeon 780M Graphics        
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16435 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21267 MB
+# Available Virtual  : 6262 MB
+#-----------------------------------------------------------
+source tb_TopModule.tcl -notrace
