@@ -39,31 +39,32 @@ The ALU uses a 3-bit `Opcode` to select the desired operation.
 
 ```mermaid
 graph LR
-    A[A: 4-bit] --> ADD[+]
-    A --> SUB[-]
-    A --> AND[&]
-    A --> OR[|]
-    A --> XOR[^]
+    A["A: 4-bit"] --> ADD["ADD (+)"]
+    A --> SUB["SUB (-)"]
+    A --> AND["AND (&)"]
+    A --> OR["OR"]
+    A --> XOR["XOR (^)"]
 
-    B[B: 4-bit] --> ADD
+    B["B: 4-bit"] --> ADD
     B --> SUB
     B --> AND
     B --> OR
     B --> XOR
 
-    ADD -->|result_add & carry| MUX{MUX}
-    SUB -->|result_sub & borrow| MUX
-    AND -->|result_and| MUX
-    OR  -->|result_or| MUX
-    XOR -->|result_xor| MUX
+    ADD -->|"result_add & carry"| MUX{"MUX"}
+    SUB -->|"result_sub & borrow"| MUX
+    AND -->|"result_and"| MUX
+    OR  -->|"result_or"| MUX
+    XOR -->|"result_xor"| MUX
 
-    OP[Opcode: 3-bit] --> MUX
+    OP["Opcode: 3-bit"] --> MUX
 
-    MUX --> RES[Result]
-    MUX --> CARRY[Carry_out]
+    MUX --> RES["Result"]
+    MUX --> CARRY["Carry_out"]
+```
 # Compile the top module, sub-modules, and testbench
 iverilog -o alu_sim TopModule.v tb_TopModule.v
-```
+
 🚀 Getting Started
 Prerequisites
 To simulate this design, you need an HDL simulator such as:
