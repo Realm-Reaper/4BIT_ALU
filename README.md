@@ -62,18 +62,21 @@ graph LR
     MUX --> RES["Result"]
     MUX --> CARRY["Carry_out"]
 ```
+
 # Compile the top module, sub-modules, and testbench
 iverilog -o alu_sim TopModule.v tb_TopModule.v
 
-🚀 Getting Started
+
+## 🚀 Getting Started
 Prerequisites
+
 To simulate this design, you need an HDL simulator such as:
 
-Icarus Verilog (Open Source)
-
-Xilinx Vivado
-
 ModelSim
+QuestaSim
+Vivado Simulator
+Icarus Verilog
+Verilator
 
 Installation & Simulation
 Clone this repository to your local machine: git clone [https://github.com/Realm-Reaper/4BIT_ALU.git](https://github.com/Realm-Reaper/4BIT_ALU.git)
@@ -95,6 +98,7 @@ The RTL output is compared against standard Verilog operators (+, -, ^, &, |).
 If a mismatch is detected, it logs an error with the exact inputs and expected vs. actual outputs.
 
 Expected Console Output:
+```text
 ===============================================
 --- Starting Exhaustive ALU Testbench ---
 ===============================================
@@ -106,7 +110,7 @@ Testing Bitwise OR (All 256 states)...
 ===============================================
 SUCCESS: TopModule passed all combinations with 0 errors!
 ===============================================
-
+```
 
 
 # Execute the simulation
